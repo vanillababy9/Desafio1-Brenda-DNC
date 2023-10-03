@@ -1,0 +1,150 @@
+*{
+    margin:0px;
+    font-family: 'inter';
+}
+
+#titulo{
+    color: #FFF;
+    margin-left: 60px;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    padding-top: 160px;
+}
+
+#subtitulo{
+    color: #FFF;
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: 20px;
+    padding-block-end: 152px;
+}
+ 
+#primeiraparte{
+    background-color: #303030;
+}
+
+#menuinformacional{
+    background-color: #F9F9F9;
+    padding-block-end: 70px;
+    display: grid;
+    grid-auto-flow:column;
+    grid-auto-columns: 445px;
+    padding-top: 80px;
+}
+
+.tituloinformacional{
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 70% */
+    margin-top: 10px;
+    margin-left: 120px;
+
+}
+
+.subtituloinformacional{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+#segundaparte{
+    display: grid;
+    grid-auto-flow:column;
+}
+
+#titulosegundaparte{
+    color: #000;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 50% */
+}
+
+#textosegundaparte{
+    color: #000;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 55px
+}
+
+#fotoarquitetura{
+    margin-top: 50px;
+}
+
+#tituloetexto{
+    margin-top: 290px;
+    margin-left: 70px;
+}
+
+#tituloformulario{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+    text-align: center;
+    padding-top: 80px;
+}
+
+#formulario{
+    background: #303030;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+input{
+    width: 490px;
+    height: 62px;
+    background-color: #FFFFFF;
+    margin: 36px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.30);
+    font-size: 24px;
+    font-style:normal;
+    font-weight: 510;
+    line-height: 30px; /* 125% */
+    padding-left: 26px;
+    padding-bottom: 6px;
+}
+
+button{
+    width: 284px;
+    height: 74px;
+    border: 0px;
+    border-radius: 10px;
+    background: #C07212;
+    margin-bottom: 55px;
+    font-weight: bold;
+    cursor:pointer;
+    margin-top: 57px;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 670px;
+    line-height: 30px; /* 100% */
+}
+
+button:hover{
+    background-color: #d57d20;
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0px 15px 20px #30110186;
+    transition-duration: 0.5s;
+}
